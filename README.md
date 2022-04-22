@@ -1,26 +1,31 @@
 # Movie Finder 🎬 🍿
 
 ## Contributors: 👨‍💻 👨‍💻
-<div style="display:flex; flex-wrap: wrap; margin-top: 10px;">
-    <div style="display: flex; align-items: center; margin-right: 30px;margin-bottom: 20px">
-        <img src="./README assets/keerthivasan_d.png" style="border-radius:50%;width: 80px; margin-right: 20px;" />
-        <span>
-            <h2>Keerthivasan D</h2>
-            <a href="https://github.com/tw-kd">
-                <img src="https://img.shields.io/badge/github-tw--kd-red" />
-            </a>
-        </span>
-    </div>
-    <div style="display: flex; align-items: center; margin-right: 30px;margin-bottom: 20px">
-        <img src="./README assets/aravind_m.jpg" style="border-radius:50%;width: 80px; margin-right: 20px;" />
-        <span>
-            <h2>Aravind M</h2>
-            <a href="https://github.com/tw-kd">
-                <img src="https://img.shields.io/badge/github-tw--kd-red" />
-            </a>
-        </span>
-    </div>
-</div>
+<table>
+    <tr>
+        <td align="center">
+            <br />
+            <img src="README assets/keerthivasan_d-modified.png" style="width: 80px; margin-right: 20px;" />
+            <span>
+                <h3>Keerthivasan D</h3>
+                <a href="https://github.com/tw-kd">
+                    <img src="https://img.shields.io/badge/github-tw--kd-red" />
+                </a>
+            </span>
+        </td>
+        <td align="center"> 
+            <br />
+            <img src="README assets/aravind_m-modified.png" style="width: 80px; margin-right: 20px;" />
+            <span>
+                <h3>Aravind M</h3>
+                <a href="https://github.com/aravindMylsamy">
+                    <img src="https://img.shields.io/badge/github-aravindMylsamy-red" />
+                </a>
+            </span>
+        </td>
+    </tr>
+</table>
+    
 <br />
 
 ## About Application: 🤔
@@ -32,14 +37,14 @@
 - When a new movie is added, the page scrolls smoothly to the new movie
 - The application is responsive and works on mobile devices
 
+<br />
+
 ## Technologies Used: 💻
 
-<div style="display: flex; align-items: center; margin-right: 30px;margin-top: 10px;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" style="width: 60px; margin-right: 20px" />
-    <a href="https://reactjs.org/">
-        <h2>React</h2>
-    </a>
-</div>
+<a href="https://reactjs.org/">
+    <img src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" style="width: 200px; margin-right: 20px; margin-top:10px" />
+</a>
+<br />
 <br />
 
 ## Output: 🤩
