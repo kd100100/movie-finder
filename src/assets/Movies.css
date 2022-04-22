@@ -1,0 +1,42 @@
+.movies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 7vh 0;
+}
+.movie-card {
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 4vh;
+    background: rgba(255, 255, 255, 0.1);
+    padding-bottom: 2vh;
+    border-radius: 10px;
+}
+.movie-card > h1 {
+    padding: 0 10px;
+    height: 60px;
+}
+.movie-image {
+    margin: 0 auto;
+    height: 50vh;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.movie-description {
+    text-align: justify;
+    width: 100%;
+}
+.book-now-button {
+    border: none;
+    background: linear-gradient(to bottom right, #ff653c, #ff0052);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 10px 20px;
+}
+.movie-banner {
+    display: flex;
+    padding: 5vh 5vw;
+}

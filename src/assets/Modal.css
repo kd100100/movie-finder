@@ -1,0 +1,127 @@
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+.modal-content {
+    width: 50%;
+    max-height: 80%;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #000;
+    padding: 30px;
+}
+.form-modal-content {
+    max-height: 80%;
+    overflow-y: auto;
+    background: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #000;
+    padding: 30px 50px;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 50px;
+}
+.modal-close {
+    font-size: 2.5em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.modal-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.modal-image {
+    height: 100%;
+    width: 25%;
+}
+.modal-text {
+    font-size: 1.25em;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.modal-text p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+/* Form */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.form-group > label {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+.form-group > input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1.25em;
+}
+.form-group > textarea {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.25em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+}
+.form-group > select {
+    width: 320px;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 1em;
+}
+.form-button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #ff653c, #ff0052);
+    color: #fff;
+    font-size: 1.25em;
+    cursor: pointer;
+    margin-top: 10px;
+}
