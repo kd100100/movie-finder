@@ -26,7 +26,7 @@
     </tr>
 </table>
     
-<br />
+
 
 ## About Application: 🤔
 - Movie data is fetched from the API `https://api.tvmaze.com/schedule`
